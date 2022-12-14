@@ -67,12 +67,12 @@ function update() {
     //gameover conditon
     if (snakeX < 0 || snakeX > column * blocksize || snakeY < 0 || snakeY > rows * blocksize) {
         gameover = true;
-        alert("gameOver")
+       // alert("gameOver")
     }
 
     for (let i = 0; i < snakebody.length; i++) {
         if (snakeX == snakebody[i][0] && snakeY == snakebody[i][1]) {
-            alert('gameOver');
+         //   alert('gameOver');
         }
     }
 
